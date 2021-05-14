@@ -2,7 +2,7 @@
 
 MERCURY router have a stack overflow issue in `uninstallPluginReqHandle` function.
 
-Local users could get remote code execution, this vulnerability currently affects latest D, M series, including D12A, M9G, M6G, D19, D196G, D126, D12A, D121G, D12B, etc. It affects the linux system and vxworks system. we believe there are much more models suffered from this vuln.
+Local users could get remote code execution, this vulnerability currently affects latest D, M series, including D12A, M9G, M6G, D19, D196G, D126, D121G, D12B, etc. It affects the linux system and vxworks system. we believe there are much more models suffered from this vuln.
 
 ## Vulnerability Description
 
