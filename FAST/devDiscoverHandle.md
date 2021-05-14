@@ -6,9 +6,15 @@ Any user can get remote code execution through LAN, this vulnerability currently
 
 ## Vulnerability Description
 
-This vulnerability happen when devDiscoverHandle receive data by using `recvfrom` from `udp port 5001`.Then enter the `protocol_handler`->`parse_advertisement_frame`->`copy_msg_element`.In the function of `copy_msg_element` we can control `iParm1` and `iParm3` that It lead to a stack buffer overflow to execute arbitrary code.
+This vulnerability happen when devDiscoverHandle receive data by using `recvfrom` from `udp port 5001`.Then enter the `protocol_handler`->`parse_advertisement_frame`->`copy_msg_element`.In the function of `copy_msg_element` we can control `a1` and `a3` that It lead to a stack buffer overflow to execute arbitrary code.
 
-![image-20210514160550480](devDiscoverHandle/image-20210514160550480.png)
+
+![1](devDiscoverHandle/1.png)
+![2](devDiscoverHandle/2.png)
+![3](devDiscoverHandle/3.png)
+![4](devDiscoverHandle/4.png)
+
+
 
 ## PoC
 
