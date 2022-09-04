@@ -4,7 +4,7 @@
 
 - 2021.10.24	  We pwned TP-Link WDR7660(v2.0.38) at [GeekPWN 2021](https://2021.geekpwn.org/zh/index.html)
 - 2022.4.16        CNVD-2022-21793 assigned 
-- 2022.5.10        CVE-2022-26988 assigned 
+- 2022.5.10        CVE-2022-26988 assigned (CVSS3.x 7.8 HIGH)
 
 
 
